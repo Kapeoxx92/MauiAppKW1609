@@ -8,7 +8,6 @@
             Padding="30,0"
             Spacing="25">
 
-            <!-- Upewnij się, że ścieżka do obrazu jest poprawna -->
             <Image
                 Source="k6.jpg"
                 HeightRequest="185"
@@ -38,6 +37,14 @@
                 Text="Wynik rzutu"
                 FontSize="Large"
                 HorizontalTextAlignment="Center" />
+
+            <StackLayout>
+                <Label Text="Wybierz kostkę" />
+                <RadioButton x:Name = "kostkak4" Content="k4"
+                IsChecked="true" />
+                <RadioButton x:Name="kostkak6" Content="k6" />
+
+            </StackLayout>
 
         </VerticalStackLayout>
     </ScrollView>
